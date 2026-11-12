@@ -1,0 +1,24 @@
+# Core
+pydantic>=2.6
+pydantic-settings>=2.2
+openai>=1.30
+langgraph>=0.2
+
+# TTS / ASR
+edge-tts>=6.1
+# 如需本地 Piper TTS，取消下面两行注释：
+# piper-tts>=1.2
+# faster-whisper>=1.0
+
+# Video
+moviepy>=2.0
+imageio-ffmpeg>=0.4.9
+Pillow>=10.0
+
+# Material
+requests>=2.31
+
+# Web
+fastapi>=0.110
+uvicorn[standard]>=0.29
+streamlit>=1.35
